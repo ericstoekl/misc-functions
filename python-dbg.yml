@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway: http://localhost:8080
+
+functions:
+  python-dbg:
+    lang: python
+    handler: ./python-dbg
+    image: ems5311/python-dbg:latest
